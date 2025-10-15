@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+
+        </title>
+    </head>
+    <body>
+        <h1>Race Registration</h1>
+        <form action="/tacos">
+            <p>
+                <label for="firstName">Enter the First Name</label>
+                <input type="text" name="firstName" id="firstName">
+            </p>
+            <p>
+                <label for="lastName">Enter the Last name</label>
+                <input type="text" name="lastName" id="lastName">
+            </p>
+            
+            <p>
+                <label for="">select the race</label>
+                <br>
+                <label for="5k">Full Run 5k</label>
+                <input type="radio" name="race" id="5k" value="5k">
+                <br>
+                <label for="half">Half Marathon</label>
+                <input type="radio" name="race" id="half" value="half">
+                <br>
+                <label for="full">Full Marathon</label>
+                <input type="radio" name="race" id="full" value="full">
+            </p>
+            <p>
+                <label for="email">Enter the email</label>
+                <input type="email" name="email" id="email">
+            </p>
+            <p>
+                <label for="password">Enter the password</label>
+                <input type="password" name="password" id="password">
+            </p>
+            <label for="agegroup">Select the Age Group</label>
+            <select name="agegroup" id="age">
+                <option value="under">under 18</option>
+                <option value="bet">between 18 and 54</option>
+                <option value="above">above 54</option>
+            </select>
+
+            <button>submit</button>
+        </form>
+    </body>
+</html>

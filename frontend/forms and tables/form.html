@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+        <title>forms</title>
+    </head>
+    <body>
+        <h1><i><big>form demo</big></i></h1>
+
+
+        <form action="/tacos">
+        <button type="reset"> resent the form</button>
+        <button type="button">do not submit the form</button>
+        <label for="name">enter the username</label>
+        <input type="text" placeholder="name" name="name" id="name" required>
+        <br>
+        <label for="password"> enter your password</label>
+        <input type="password" name="password" id="password" placeholder="password">
+        <br>
+        <label for="color">choose your favorite color</label>
+        <input type="color" placeholder="color" name="color" id="color">
+        <br>
+        <label for="number">enter your number</label>
+        <input type="number" placeholder="number" name="number" id="number">
+        <br>
+        <button type="submit">submit</button>
+
+        <p>
+            <label for="volume">select the volume</label>
+            <input type="range" name="volume" id="volume" min="1" max="5">
+        </p>
+        </form>
+    </body>
+</html>

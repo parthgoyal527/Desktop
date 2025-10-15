@@ -1,0 +1,31 @@
+*{
+    background-color: black;
+    color: white;
+}
+h1{
+    color: beige;
+    font-size: larger;
+
+}
+button{
+    background-color: cadetblue;
+    size: 30px;
+    font-weight: 600;
+}
+#signup{
+    background-color: beige;
+    color: darkred;
+
+}
+a{
+    font-weight: 600;
+    text-decoration: none;
+}
+p::selection{
+    background-color: grey;
+}
+p::first-letter{
+    font-size: 25px;
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* inline styles > id selectors > class,attributes,Pseudo class, selectors >Element and Pseudo element selectors*/
